@@ -1,0 +1,13 @@
+http://www.betexplorer.com/soccer/spain/;Primera Division
+http://www.betexplorer.com/soccer/spain/;Sequnda Division
+http://www.betexplorer.com/soccer/belgium/;Jupiler League
+http://www.betexplorer.com/soccer/germany/;Bundesliga
+http://www.betexplorer.com/soccer/germany/;2. Bundesliga
+http://www.betexplorer.com/soccer/argentina/;Primera Division
+http://www.betexplorer.com/soccer/argentina/;Primera B Nacional
+http://www.betexplorer.com/soccer/italy/;Serie A
+http://www.betexplorer.com/soccer/italy/;Serie B
+http://www.betexplorer.com/soccer/england/;Premier League
+http://www.betexplorer.com/soccer/england/;Championship
+http://www.betexplorer.com/soccer/hungary/;OTP Bank Liga
+http://www.betexplorer.com/soccer/hungary/;NB I
