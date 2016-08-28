@@ -21,7 +21,9 @@ def populate_from_url(url):
         team_b =  teams.group(2)
         odds = re.findall("([0-9]{1,2}\.[0-9]{2})", m)
         odds_list = odds[:3]
+        odds_list = [float(i) for i in odds_list] #convert them to numbers then back
         odds_list.sort()
+        odds_list = [str(i) for i in odds_list]
         winnerodd = re.search("best-betrate\" data-odd=\"([0-9]{1,2}\.[0-9]{2})", m)
         if winnerodd:
             win_odd = winnerodd.group(1)
@@ -29,7 +31,7 @@ def populate_from_url(url):
             #print team_a
             #print team_b
             #print odds_list
-            win_index = odds_list.index(win_odd)
+            win_index = odds_list.index(str(float(win_odd)))
             #print win_index
             league = re.findall("/([a-z0-9A-Z-]+)/results",url)
             #print league
